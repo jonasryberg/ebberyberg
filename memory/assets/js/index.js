@@ -3,6 +3,7 @@ let personer = ["ebbe_tn", "elias_tn", "ellenfrida_tn", "emil_tn", "janne_tn", "
 let clickable = true;
 let gameArea;
 let openCard;
+let pair = 0;
 
 
 addEventListener('load', main);
@@ -31,10 +32,19 @@ function cardClick(event) {
             openCard = undefined;
             clickable = true;
         }, 1000);
-        playSoundCow();
+       
     } else {
         openCard = undefined;
+        pair +=1;
         playSoundMario();
+        if (pair == 10) {
+            tada();
+            TARGET.classList.remove('hidden');
+  
+            alert('Grattis du klarade spelet!')
+            location.reload(); 
+
+        }
 
 
     }
@@ -43,15 +53,19 @@ function cardClick(event) {
 
 
 function playSoundMario () {
-	let ding = new Audio('../sound/mario-money-sound.mp3');
+	let ding = new Audio('assets/sound/mario-money-sound.mp3');
 	ding.play();
 }
 
 function playSoundCow () {
-	let ding = new Audio('../sound/Cow-moo-sound.mp3');
+	let ding = new Audio('assets/sound/Cow-moo-sound.mp3');
 	ding.play();
 }
 
+function tada () {
+	let ding = new Audio('assets/sound/tada-fanfare-a-6313.mp3');
+	ding.play();
+}
 
 function createGameAre() {
     personer = personer.concat(personer);
