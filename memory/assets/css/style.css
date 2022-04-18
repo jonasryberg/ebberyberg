@@ -18,7 +18,7 @@ body {
 
 
 
-@media(max-width: 500px) {
+@media(max-width: 700px) {
 
 	img {
     width: 75px;
@@ -38,7 +38,7 @@ user-drag: none;
 }
 }
 
-@media(min-width: 501px) {
+@media(min-width: 701px) {
 
 	img {
     width: 200px;
