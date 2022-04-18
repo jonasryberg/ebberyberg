@@ -21,11 +21,11 @@ body {
 @media(max-width: 700px) {
 
 	img {
-    width: 75px;
+    width: 120px;
     -webkit-user-drag: none;
--khtml-user-drag: none;
--moz-user-drag: none;
--o-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 user-drag: none;
 }
 

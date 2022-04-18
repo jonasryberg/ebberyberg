@@ -17,7 +17,7 @@ function main() {
 function cardClick(event) {
     const TARGET = event.target;
     if(TARGET.tagName.toLowerCase() != 'img' || !clickable) return;
-    console.dir(event);
+    
 
     TARGET.classList.remove('hidden');
 
