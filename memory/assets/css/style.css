@@ -30,3 +30,45 @@ user-drag: none;
 .hidden {
     opacity: 0;
 }
+
+
+
+@media(max-width: 500px) {
+
+	img {
+    width: 75px;
+    -webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+}
+
+#game-area {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 498px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+@media(min-width: 501px) {
+
+	img {
+    width: 200px;
+    -webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+}
+
+#game-area {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+}
