@@ -31,12 +31,26 @@ function cardClick(event) {
             openCard = undefined;
             clickable = true;
         }, 1000);
+        playSoundCow();
     } else {
         openCard = undefined;
+        playSoundMario();
+
+
     }
 
 }
 
+
+function playSoundMario () {
+	let ding = new Audio('../sound/mario-money-sound.mp3');
+	ding.play();
+}
+
+function playSoundCow () {
+	let ding = new Audio('../sound/Cow-moo-sound.mp3');
+	ding.play();
+}
 
 
 function createGameAre() {
