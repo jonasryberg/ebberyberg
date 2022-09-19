@@ -1,0 +1,78 @@
+body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {
+    background: url('../img/q-mark.png') no-repeat center;
+    background-size: 80%;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+@media(max-width: 700px) {
+
+	img {
+    width: 75px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+user-drag: none;
+}
+
+#game-area {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 498px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+
+@media(min-width: 701px) {
+
+	img {
+    width: 110px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+#game-area {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 498px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+@media(min-width: 801px) {
+
+	img {
+    width: 200px;
+    -webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+}
+
+#game-area {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+}

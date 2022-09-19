@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family:'Orbitron';
+    src: url(../font/orbitron/Orbitron-Regular.ttf);
+}
+
+h1{
+    font-family: 'Orbitron';
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
