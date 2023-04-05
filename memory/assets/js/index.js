@@ -84,4 +84,4 @@ function createGameAre() {
         gameArea.appendChild(div);
     }
 }
-
+ 
