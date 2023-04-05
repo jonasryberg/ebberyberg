@@ -1,5 +1,5 @@
 import {shuffle} from './utils.js';
-let personer = ["ebbe_tn", "elias_tn", "ellenfrida_tn", "emil_tn", "janne_tn", "johanna_tn", "jonasfrida_tn", "martinmarisol_tn", "simon_tn", "johan_tn"];
+let personer = ["1", "2", "3", "4", "5", "6", "7", "8", "9n", "10"];
 let clickable = true;
 let gameArea;
 let openCard;
@@ -78,7 +78,7 @@ function createGameAre() {
             div.classList.add('card');
         let img = document.createElement('img');
             img.classList.add('hidden');
-            img.setAttribute('src', `assets/img/${PERSON_NUMBER}.jpg`);
+            img.setAttribute('src', `assets/img/${PERSON_NUMBER}.png`);
 
         div.appendChild(img);
         gameArea.appendChild(div);
