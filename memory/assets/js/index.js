@@ -1,5 +1,5 @@
 import {shuffle} from './utils.js';
-let personer = ["1", "2", "3", "4", "5", "6", "7", "8", "9n", "10"];
+let personer = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 let clickable = true;
 let gameArea;
 let openCard;
